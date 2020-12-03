@@ -22,5 +22,6 @@ slopes = [
 result = 1
 for slope in slopes:
     result *= TreesBonked(forest, slope[0], slope[1])
-
+    
+print TreesBonked(forest, 3, 1)
 print result
