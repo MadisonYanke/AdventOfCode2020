@@ -28,7 +28,7 @@ for boardingPass in boardingPasses:
     seatIds.append(seatId)
     if seatId > max:
         max = seatId
-totalSeats = 128 * 8
+totalSeats = 127 * 8 + 7
 
 print(max)
 print(findSantasSeat(findMissingPasses(seatIds, totalSeats), seatIds))
